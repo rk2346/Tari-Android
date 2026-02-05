@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow clear‑text only for the specific IP address -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">192.168.178.107</domain>
+    </domain-config>
+
+    <!-- (Optional) allow all clear‑text – not recommended for production -->
+    <!-- <base-config cleartextTrafficPermitted="true"/> -->
+</network-security-config>
